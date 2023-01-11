@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>js</title>
+</head>
+
+<body>
+    <p id="c1">段落内容</p>
+    <button onclick="change();">change</button>
+    <button onclick="myFunction();">改变样式</button>
+    <script>
+        function change() {
+            document.getElementById("c1").innerHTML = "变~";
+        }
+        function myFunction() {
+            document.getElementById("c1").style.fontSize = "25px";
+            document.getElementById("c1").style.color = "red";
+        }
+    </script>
+
+
+</body>
+
+</html>
